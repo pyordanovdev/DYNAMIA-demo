@@ -9,10 +9,9 @@
 }
 html{
     font-size:20px;
-    /*
     font-family: 'Lato', sans-serif;
-    font-family: 'Raleway', sans-serif; */
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Raleway', sans-serif; 
+    /*font-family: 'Montserrat', sans-serif;*/
     font-weight:300;
     color:#555;
     background-color:#fff;
@@ -25,10 +24,10 @@ html{
 /* ----------------- */
 
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("benjamin-child-90768.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("ipad-tablet-technology-touch.jpg");
     height:100vh;
     background-size:cover;
-    background-position:center center;
+    background-position:center bottom;
     position:relative;
 }
 video{
@@ -57,7 +56,7 @@ nav, .hero-text-box{
 }
 nav{
     overflow:hidden;
-    height:18%; 
+    height:15%; 
 }
 .logo-box{
     float:left;
@@ -81,13 +80,14 @@ nav{
     text-decoration:none;
     color:#fff;;
     text-transform:uppercase;
-    font-size:70%;
+    font-size:68%;
     font-weight:700;
     padding:5px;
 }
 .main-nav li a:hover,
 .main-nav li a:active{
     color:rgb(159,177,0);
+    border-bottom:2px solid rgb(159,177,0);
 }
 .btn-contact:link,
 .btn-contact:visited{
@@ -96,11 +96,12 @@ nav{
     background-color:rgb(159,177,0);
     color:#fff !important ;
     border-radius:4px;
+    transition:border 0.2s, background-color 0.2s;
 }
 .btn-contact:hover,
 .btn-contact:active{
-    background-color:rgb(139,160,0);
-    border:1px solid rgb(139,160,0);
+    background-color:rgb(130,160,0);
+    border:1px solid rgb(130,160,0) !important;
 }
 .hero-text-box{
     position:absolute;
@@ -132,7 +133,11 @@ h1{
     border:1px solid rgb(159,177,0);
     border-radius:4px;
 }
-
+.btn-full:hover,
+.btn-full:active{
+    background-color:rgb(130,160,0);
+    border:1px solid rgb(130,160,0) !important;
+}
 /* EXPERIMENT */
 
 
