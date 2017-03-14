@@ -57,7 +57,7 @@ nav, .hero-text-box{
 nav{
     overflow:hidden;
     height:12%; 
-    background-color:transparent
+    background-color:#fff;
 }
 .logo-box{
     float:left;
@@ -65,7 +65,7 @@ nav{
     margin-top:10px;
     margin-left:70px;
     background-color:#fff;
-    border-radius:2px;
+    border-radius:10px;
     padding:3px;
 }
 .main-nav {
